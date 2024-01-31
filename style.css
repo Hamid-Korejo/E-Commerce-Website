@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#fae9e9 , rgba(255, 225, 243, 0.867));
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    height: 40px;
+
+}
+
+.nav-links {
+    margin-right: 100px;
+}
+
+.nav-links a {
+    margin-inline: 15px;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.nav-links img {
+    height: 25px;
+    padding-top: 1px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.banner-para {
+    height: calc(100vh -60px);
+}
+
+.banner-para h1 {
+    font-size: 40px;
+}
+
+.banner-para p {
+    margin-top: 25px;
+    color: rgb(58, 58, 59);
+}
+
+.banner-image img {
+    height: 300px;
+}
+
+.para-btn {
+    padding: 8px 25px;
+    border-radius: 30px;
+    background-color: rgb(255, 119, 0);
+    border: 0;
+    margin-top: 25px;
+}
+
+.para-btn:hover {
+    background-color: gray;
+    transition: all 0.6s;
+}
+
+.faltu-images {
+    height: 300px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+    flex-wrap: wrap;
+}
+
+.faltu-images img {
+    margin-inline: 20px;
+    height: 250px;
+}
+.faltu-images img:hover {
+    scale: 1.05;
+    transition: all 0.5s;
+}
+.featured-heading h2 {
+    text-align: center;
+    margin-block: 50px;
+    text-decoration: underline rgb(255, 123, 0) 3px;
+}
+
+.featured-images {
+    height: 320px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.featured-images img:hover {
+    scale: 1.05;
+    transition: all 0.5s;
+}
+.featured-images div img {
+    height: 240px;
+    margin-inline: 10px;  
+}
+.featured-images img h4 {
+    text-align: center;
+
+}
+.latest-heading h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline rgb(255, 123, 0) 3px;
+}
+.latest-products {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-block: 50px;
+}
+.latest-products img:hover {
+    scale: 1.05;
+    transition: all 0.5s;
+}
+.latest-products img {
+    height: 240px;
+    margin-inline: 10px;
+}
+i {
+    color: gold;
+    text-align: center;
+}
+.forSpace {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exclusive-section {
+    background: radial-gradient(#fae9e9 , rgba(255, 225, 243, 0.867));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 400px;
+}
+.exclusive-image img {
+    height: 270px;
+}
+.exclusive-para p{
+    font-size: 14px;
+    margin-block: 20px;
+    color: gray;
+}
+/* .exclusive-para h4 {
+} */
+.exclusive-btn {
+    color: white;
+    padding: 10px 18px;
+    background-color: rgb(255, 123, 0);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.monials-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    margin-block: 50px;
+    width: 70%;
+}
+.box {
+    height: 270px;
+    width: 270px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgb(75, 75, 75);
+}
+.box h1 {
+    color: rgb(255, 123, 0);
+}
+.box p {
+    color: gray;
+    font-size: 12px;
+}
+.box i {
+    margin-top: 10px;
+}
+.box img {
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.box h3 {
+    color: gray;
+}
+.logos-section {
+    display: flex;
+    justify-content: center;
+    margin-block: 70px;
+    gap: 50px;
+}
+.logos-section img {
+    height: 70px;
+}
+
+.footer {
+    height: 250px;
+    color: #747474;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 16px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li img {
+    height: 30px;
+    margin-top: 10px;
+}
+.li-head {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.copy-right {
+    height: 40px;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    color: #747474;
+    justify-content: center;
+    align-items: center;
+}
+
+/* using media queries from here */
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
